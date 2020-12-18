@@ -19,6 +19,7 @@ end
 def long_planeteer_call(calls)s# code an argument here
   # Your code here
   calls.each {|call| returns false if call == call.upcase}
+  return true
 end
 
 def find_the_cheese# code an argument here
