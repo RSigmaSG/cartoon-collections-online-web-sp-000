@@ -16,7 +16,7 @@ def summon_captain_planet(planeteers)# code an argument here
   planeteers.collect{|planeteer| "#{planeteer.capitalize}!"}
 end
 
-def long_planeteer_calls(calls)s# code an argument here
+def long_planeteer_calls(calls)# code an argument here
   # Your code here
   calls.each {|call| returns true if call.length > 4}
   return false
