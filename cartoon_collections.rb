@@ -18,8 +18,8 @@ end
 
 def long_planeteer_calls(calls)s# code an argument here
   # Your code here
-  calls.each {|call| returns false if call == call.upcase}
-  return true
+  calls.each {|call| returns true if call.length > 4}
+  return false
 end
 
 def find_the_cheese# code an argument here
