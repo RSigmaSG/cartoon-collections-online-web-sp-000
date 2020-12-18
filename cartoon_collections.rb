@@ -13,7 +13,7 @@ end
 
 def summon_captain_planet(planeteers)# code an argument here
   # Your code here
-  planeteers.collect{}
+  planeteers.collect{|planeteer| "#{planeteer}!"}
 end
 
 def long_planeteer_calls# code an argument here
